@@ -2,7 +2,7 @@ package aspects;
 
 public aspect FirstAspect {
 
-	pointcut pc1() : execution(* test.App.main(..));
+	pointcut pc1() : execution(* test.App.mainx(..));
 	
 //	before() : pc1() {
 //		System.out.println("-------------------------------------------");
